@@ -1,7 +1,7 @@
 {
   "name": "shared-calendar-event-creator",
   "version": "1.0.0",
-  "description": "Find who created an event on a shared Exchange Online calendar",
+  "description": "Optional TypeScript mirror of Find-SharedCalendarEventCreator.ps1. Run the PowerShell script, not this package, to look up a shared calendar event.",
   "type": "module",
   "bin": {
     "calendar-creator": "./dist/cli.js"

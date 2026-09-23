@@ -23,7 +23,8 @@ export interface CliArgs {
   auditKeyword?: string;
 }
 
-export const HELP = `Find who created an event on a shared Exchange Online calendar.
+export const HELP = `Optional TypeScript mirror. The supported command is:
+  pwsh ./Find-SharedCalendarEventCreator.ps1 -Calendar <mailbox> -Subject <text>
 
 Usage:
   npm start -- --calendar <mailbox> --subject <text>
