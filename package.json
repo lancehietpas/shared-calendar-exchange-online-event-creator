@@ -1,0 +1,22 @@
+{
+  "name": "shared-calendar-event-creator",
+  "version": "1.0.0",
+  "description": "Optional TypeScript mirror of Find-SharedCalendarEventCreator.ps1. Run the PowerShell script, not this package, to look up a shared calendar event.",
+  "type": "module",
+  "bin": {
+    "calendar-creator": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/cli.js",
+    "test": "tsc && node --test dist/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
